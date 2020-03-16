@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'pr';
+    src: url(font/pr.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'psmb';
+    src: url('font/psmb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pb';
+    src: url('font/pb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pm';
+    src: url('font/pm.ttf') format('truetype');
+}
+
+
+body {
+    font-family: 'pr';
+}
+
+a.nav-color {
+    color: #2F281E !important;
+}
+
+.btn-warning {
+    background-color: #FF9900;
+    font-weight: 600;
+    color: #FFF;
+    font-family: 'psmb';
+}
+
+.btn-warning:hover {
+    background-color: rgb(214, 138, 23);
+    transition: .3s ease-in;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #173A56;
+    font-weight: 600;
+    font-family: 'psmb';
+    color: #173A56 !important;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid rgb(5, 31, 53);
+    transition: .3s ease-in;
+}
+
+li a.nav-link {
+    padding: 8px 14px !important;
+}
+
+section.web-header-banner h1 {
+    font-family: 'pb';
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+
+section.web-header-banner p {
+    font-family: 'pr';
+    line-height: 32px;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+section.web-header-banner .video-link u {
+    color: #FF9900;
+    font-family: 'psmb';
+}
+
+section.web-feature {
+    margin-top: 110px;
+}
+
+section.web-feature h2,
+section.web-super-hero h2 {
+    font-family: 'pb';
+    font-size: 36px;
+    text-align: center;
+}
+
+section.web-feature .des h3 {
+    font-family: 'psmb';
+    font-size: 22px;
+    color: #2F281E;
+}
+
+section.web-feature .des p, 
+section.information p,
+section.web-marketing p {
+    color: #544837;
+    font-family: 'pm';
+    font-size: 16px;
+    line-height: 32px;
+}
+
+section.web-feature {
+    background-image: url(img/bg-feature.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section.web-validation {
+    margin-top: 120px;
+}
+
+section.web-validation .validation-text {
+    padding-right: 42px;
+}
+
+section.information h2 {
+    font-family: 'pb';
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+section.information .content h4 {
+    font-family: 'pb';
+    font-size: 16px;
+    color: #2F281E;
+    margin-top: 14px;
+}
+
+section.web-product-manager {
+    margin-top: 110px;
+}
+
+section.web-product-manager .product-text {
+    padding-left: 42px;
+}
+
+section.web-super-hero {
+    margin-top: 110px;
+    background-image: url(img/bg-super-hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding: 120px;
+}
+
+section.web-super-hero .container {
+    padding-bottom: 230px;
+}
+
+section.web-super-hero p {
+    color: #567592;
+    margin-top: 20px;
+    margin-bottom: 42px;
+}
+
+section.web-marketing p {
+    margin-bottom: 50px;
+}
+
+section.web-marketing h2 {
+    font-family: 'pb';
+    font-size: 34px;
+}
+
+section.web-marketing .card-body {
+    padding: 0px 14px 20px 14px;
+}
+
+section.web-marketing .card-text {
+    margin: 16px 0;
+    font-family: 'pr';
+}
+
+section.web-marketing .card-title {
+    font-family: 'pb';
+    font-size: 24px;
+}
+
+section.web-marketing .card-title-active {
+    color: #FF9900;
+    font-family: 'pb';
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer hr {
+    margin-bottom: 52px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer input {
+    margin: 26px 0 24px 0;
+    border: 1px solid #BCD0E5;
+    color: #BCD0E5;
+}
+
+small {
+    text-align: center;
+    margin: 42px 0;
+}
+
+small a {
+    text-decoration: none !important;
+}
+
+@media (max-width: 991px) { 
+    .btn-warning {
+        margin-top: 8px;
+    }
+    section.information .validation-text,
+    section.information .product-text {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    section.web-super-hero {
+        padding: 100px 16px;
+        height: 500px;
+    }
+    section.web-marketing .row div {
+        margin-top: 16px;
+    }
+    footer .row div {
+        margin: 12px 0 !important;
+    }
+}
